@@ -39,3 +39,21 @@ button{
     width: 50%;
   
   } 
+
+#map{
+    margin-left: 30px;
+    padding-bottom: 10px;
+    float: right;
+}
+
+#max{
+    max-width: 500px;
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form-check{
+    margin-left: 15px;
+}
