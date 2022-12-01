@@ -35,36 +35,45 @@
     </style>
 </head>
 <body>
-    <div>
-        <ul class="nav nav-pills nav-fill" >
-            <li class="nav-item">
-              <a class="nav-link text-dark"  href="index.html">Főoldal</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="about.html">Rólunk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="service.html">Szolgáltatások</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="contact.html">Kapcsolat</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="admin.html">Admin</a>
-              </li>
-          </ul>
-    </div>
     
-    <div class="container">
-        <div class="row">
-             <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 20rem;">
+    <nav id="hatternavbar" class="navbar sticky-top navbar-expand-lg navbar-dark fw-bold shadow-5-strong bg-warning">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse  justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-dark m-1"  href="index.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark m-1" href="about.html">Rólunk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark m-1" href="services.html"><b>Szolgáltatások</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark m-1" href="contact.html">Kapcsolat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark m-1" href="admin.html">Admin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="container"style="margin:auto">
+        <div class="row" style="margin:auto" >
+             <div class="card col-sm-12 col-md-6 col-lg-4" style="margin-left:auto;margin-right:auto">
                 <h4>Egyedi szoftverek</h4>
                 <img src="https://bluebird.hu/wp-content/uploads/2022/05/Egyedi-szoftverfejlesztes-a-Bluebirdtol.png" class="kepek" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">A cégek munkafolyamatainak 30%-a kiváltható szoftverek segítségével. Ha van egy alap rendszered, amiben menedzseled a céged működését akkor megvan a lehetőséged, hogy olyan egyedi modulokat fejlessz bele, amivel automatizálhatod az automatizálható munkafolyamatokat.</p>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 20rem;">
+            <div class="card col-sm-12 col-md-6 col-lg-4" style="margin-left:auto;margin-right:auto">
                 <h4>Adatbázis</h4>
                 <img src="https://www.soterline.hu/wp-content/uploads/2022/02/adatbazis-kezeles-tanfolyam-280x280.jpg" class="kepek" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -75,7 +84,7 @@
                         nyilvántartásáról, rendezéséről.</p>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 20rem;">
+            <div class="card col-sm-12 col-md-6 col-lg-4" style="margin-left:auto;margin-right:auto">
                 <h4>Full stack megoldások</h4>
                 <img src="http://startupdate.hu/wp-content/uploads/2013/07/full-stack-marketing.png" class="kepek" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -86,21 +95,21 @@
                         Adatbázis programozása (például SQL, SQLite vagy MongoDB használatával)</p>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 20rem;">
+            <div class="card col-sm-12 col-md-6 col-lg-4"  style="margin-left:auto;margin-right:auto">
                 <h4>Felhőszolgáltatás</h4>
                 <img src="https://www.dima.hu/tarhely-blog/wp-content/uploads/2016/09/felho_tarhely_dima.jpg" class="kepek" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">A felhőszolgáltatás előnyei a költséghatékonyság, az adatok biztonsága, az egyszerű elérés.</p>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 20rem;">
+            <div class="card col-sm-12 col-md-6 col-lg-4" style="margin-left:auto;margin-right:auto">
                 <h4>Backend fejlesztés</h4>
                 <img src="https://bluebird.hu/wp-content/uploads/2022/09/backend-bluebird-blog.jpg" class="kepek" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Backend fejlesztés közben elvégezük az ügyfél által kért szerver, adatbázis feladatokat, ebben a munkakörben főleg Php, Python, JavaScriptben dolgozunk.</p>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 20rem;">
+            <div class="card col-sm-12 col-md-6 col-lg-4" style="margin-left:auto;margin-right:auto">
                 <h4>Frontend fejlesztés</h4>
                 <img src="https://barn2.com/wp-content/uploads/2018/12/How-to-Set-Up-WooCommerce-Frontend-Product-SubmissionBlog.png" class="kepek" class="card-img-top" alt="...">
                 <div class="card-body">
