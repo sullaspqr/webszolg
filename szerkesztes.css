@@ -1,0 +1,57 @@
+body{
+    color: #36454f;
+}
+
+h1{
+    text-align: center;
+    font-size: 48pt;
+}
+
+input[type="text"], textarea{
+    font-size:14pt;
+}
+
+h2{
+    font-size: 20pt;
+}
+
+#tartalom{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hir-cim{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+#hir-szoveg{
+    width: 100%;
+    background-image: url("robot.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 16pt;
+    border: none;
+    background-color: #36454f;
+    color:white;
+    border-radius: 10px;
+}
+
+#ok-gomb{
+    margin-top: 25px;
+}
+
+#kilepes-tarolo{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}

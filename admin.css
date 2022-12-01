@@ -1,0 +1,80 @@
+.rat {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(156, 156, 156);
+  background-size: cover;
+  background-position: center;
+}
+
+.subrat {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+img {
+  margin:auto;
+  width:20%;
+  padding-top:50px;
+}
+
+.contrat {
+  width: 100px;
+  margin: auto; 
+}
+
+h5{
+  position:relative;
+  top:20px;
+  margin-left: 70px;
+}
+h6{
+  position:relative;
+  top:0px;
+  margin-left: 70px;
+}
+h2{
+  position: relative;
+  font-size: 20px;
+  margin-left: 150px;
+}
+table, td {
+  margin-left: 58px;
+  margin-top: -25px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Lucida Grande',monospace;
+}
+#temaValasztoGomboker{
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.inline {
+  display: inline-block;
+  margin: 1em;
+}
+.squarerat {
+  padding-bottom: 100%;
+}
+
+.form-control.szin{
+  width:20%;
+  margin: auto;
+}
+.btn.btan{
+  display: block;
+  margin: auto;
+}
+
+.bgrat {
+  background-image: url('HornyMiklos.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  top: 40px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
